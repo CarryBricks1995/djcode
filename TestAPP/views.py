@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 # Create your views here.
 def hello(request):
-    context = {'hello, world!'}
+    context = {'hello, yangjuncheng!'}
     return render(request, 'login.html',context)
 
 def book_details(request):
